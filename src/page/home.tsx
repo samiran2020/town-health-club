@@ -13,6 +13,7 @@ import CtaButton from '@/components/ui/CtaButton';
 import serviceYoga from "@/assets/image/service-Yoga.svg";
 import serviceCafe from "@/assets/image/service-box3.svg";
 
+
 function Home() {
     return (
       <>
