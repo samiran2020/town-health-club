@@ -7,27 +7,30 @@ import {
   useSpring,
 } from "framer-motion";
 import { useRef } from "react";
+import slider1 from "@/assets/image/banner1.jpg"
+import slider2 from "@/assets/image/banner2.jpg"
+import slider3 from "@/assets/image/banner3.jpg"
 
 const slides = [
   {
     title: "Reach your body goals with",
     subtitle: "Town Health Club",
     desc: "Results-driven programs. Expert guidance. Powerful community.",
-    image: "/src/assets/image/banner1.jpg",
+    image: slider1,
     dark: true,
   },
   {
     title: "Build Strength & Confidence",
     subtitle: "POWER TRAINING",
     desc: "Personalized workouts with real progress tracking.",
-    image: "/src/assets/image/banner2.jpg",
+    image: slider2,
     dark: true,
   },
   {
     title: "Balance Mind & Body",
     subtitle: "YOGA & WELLNESS",
     desc: "Breathe. Stretch. Grow stronger inside and out.",
-    image: "/src/assets/image/banner3.jpg",
+    image: slider3,
     dark: true,
   },
 
