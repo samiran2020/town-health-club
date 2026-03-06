@@ -6,7 +6,7 @@ import { useRef } from "react";
 import floralBg from "@/assets/image/floral2.png";
 import { ArrowRight } from "lucide-react";
 
-import serviceDoctor from "@/assets/image/service-box2.svg";
+import serviceDoctor from "@/assets/image/servicebox-2.svg";
 
 export const gymYogaSection = {
   tag: "polyclininc & Doctor",
