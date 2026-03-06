@@ -8,6 +8,9 @@ import {
 } from "framer-motion";
 import { useRef } from "react";
 
+import p3 from "@/assets/image/p3.png";
+import p2 from "@/assets/image/p2.png";
+
 export default function GuidanceSection() {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -68,7 +71,7 @@ export default function GuidanceSection() {
         <div className="relative h-[550px]">
 
           <motion.img
-            src="/src/assets/image/p3.png"
+            src={p3}
             style={{ y: img1Y, scale: img1Scale }}
             className="absolute left-0 bottom-0 w-60 rounded-3xl shadow-2xl "
             alt=""
@@ -82,7 +85,7 @@ export default function GuidanceSection() {
           /> */}
 
           <motion.img
-            src="/src/assets/image/p2.png"
+            src={p2}
             style={{ y: img3Y, x: img3X, scale: img3Scale }}
             className="absolute -right-8 -bottom-12 w-64 rounded-3xl shadow-2xl z-40"
             alt=""

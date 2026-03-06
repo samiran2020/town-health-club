@@ -11,14 +11,22 @@ import { useRef } from "react";
 import ScrollRevealParagraph from "../ui/Paragraph";
 import SpotlightButton from "../ui/ButtonWrapper";
 
+import yoga1 from "@/assets/image/yoga1.png";
+import cafe3 from "@/assets/image/cafe3.png";
+import unity from "@/assets/image/unity.png";
+import jym4 from "@/assets/image/jym4.png";
+import yogaback from "@/assets/image/yoga-back.png";
+import yogafornt from "@/assets/image/yoga-fornt.png";
+import p1 from "@/assets/image/p1.png";
+
 const images = [
-  { src: "/src/assets/image/yoga1.png", className: "top-left" },
-  { src: "/src/assets/image/cafe3.png", className: "bottom-left" },
-  { src: "/src/assets/image/unity.png", className: "mid-left" },
-  { src: "/src/assets/image/jym4.png", className: "mid-right" },
-  { src: "/src/assets/image/yoga-back.png", className: "mid-center" },
-    { src: "/src/assets/image/yoga-fornt.png", className: "bottom-right" },
-  { src: "/src/assets/image/p1.png", className: "bottom-center", bottom: true },
+  { src: yoga1, className: "top-left" },
+  { src: cafe3, className: "bottom-left" },
+  { src: unity, className: "mid-left" },
+  { src: jym4, className: "mid-right" },
+  { src: yogaback, className: "mid-center" },
+    { src: yogafornt, className: "bottom-right" },
+  { src: p1, className: "bottom-center", bottom: true },
 ];
 
 export default function FloatingParallaxSection() {
