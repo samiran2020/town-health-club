@@ -32,20 +32,18 @@ function Footer() {
                     <div className="w-[25%] right-bar bg-[#828282] h-[1px] relative"></div>
                 </div>
                 <div className="mid-content-footer py-16 relative z-30">
+                    <FadeInUp>
                     <div className="flex w-full justify-between flex-row items-center">
-                        <FadeInUp>
                         <div className="w-1/2">
                             <p className="text-xl text-darkGrey font-normal leading-normal tracking-normal">Every collaboration begins with an idea. If you’re looking for a creative partner to help bring yours to life, feel free to get in touch with me.</p>
                         </div>
-                        </FadeInUp>
-                        <FadeInUp>
                         <div className="w-1/2 text-right flex justify-end">
                             <Link to="/contact" className=" flex flex-row  justify-center items-center gap-2">
                                 <ArrowRight size={40} className="text-darkGrey" /> <p className="text-3xl text-darkGrey font-light leading-normal tracking-normal uppercase">INFO@townhealthclub.COM</p>
                             </Link>
                         </div>
-                        </FadeInUp>
                     </div>
+                    </FadeInUp>
                     <div className="w-full text-center flex justify-center pt-12">
                         <FadeInUp>
                             <Link to="/contact" className=" flex flex-row  justify-center items-center gap-2">
