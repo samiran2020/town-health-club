@@ -30,15 +30,15 @@ import CtaButton from "../ui/CtaButton";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const menu = [
-  { id: "home", label: "Home" },
-  { id: "about", label: "About Us" },
-  { id: "services", label: "Services" },
-  { id: "contact", label: "Contact Us" },
-];
+// const menu = [
+//   { id: "home", label: "Home" },
+//   { id: "about", label: "About Us" },
+//   { id: "services", label: "Services" },
+//   { id: "contact", label: "Contact Us" },
+// ];
 
 export default function Navigation() {
-  const [active, setActive] = useState("home");
+  //const [active, setActive] = useState("home");
 
   // const scrollToSection = (id: string) => {
   //   document.getElementById(id)?.scrollIntoView({
@@ -46,22 +46,22 @@ export default function Navigation() {
   //   });
   // };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      menu.forEach(({ id }) => {
-        const section = document.getElementById(id);
-        if (!section) return;
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     menu.forEach(({ id }) => {
+  //       const section = document.getElementById(id);
+  //       if (!section) return;
 
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= 120 && rect.bottom >= 120) {
-          setActive(id);
-        }
-      });
-    };
+  //       const rect = section.getBoundingClientRect();
+  //       if (rect.top <= 120 && rect.bottom >= 120) {
+  //         setActive(id);
+  //       }
+  //     });
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
    const [isSticky, setIsSticky] = useState(false);
 

@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import GymYogaSection from "../ui/ServiceBox";
+// import GymYogaSection from "../ui/ServiceBox";
 
 export default function ScrollLine() {
   const containerRef = useRef(null);
@@ -22,7 +22,7 @@ export default function ScrollLine() {
       className="relative  flex  flex-col items-center justify-center "
     >
       <div className="container mx-auto">
-        <GymYogaSection />
+        {/* <GymYogaSection /> */}
       </div>
       <svg
             viewBox="0 0 180 1800"

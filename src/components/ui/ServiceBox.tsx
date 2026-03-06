@@ -16,6 +16,13 @@ interface AnimatedServiceSectionProps {
   counter?: number;
 }
 
+interface AnimatedServiceSectionProps {
+  tag: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
 export default function AnimatedServiceSection({
   tag,
   title,
