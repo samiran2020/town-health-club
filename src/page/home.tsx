@@ -10,7 +10,8 @@ import { GreatColaboration } from '@/components/home/GreatColaboration';
 import ScrollDashLine from '@/components/home/LineAnimation';
 import CtaButton from '@/components/ui/CtaButton';
 
-
+import serviceYoga from "@/assets/image/service-Yoga.svg";
+import serviceCafe from "@/assets/image/service-box3.svg";
 
 function Home() {
     return (
@@ -30,7 +31,7 @@ function Home() {
               tag="Gym & Yoga"
               title="Stronger Every Breath."
               description="Our gym and yoga center is designed to help you build strength, improve flexibility, and find inner peace—all in one place."
-              image="/src/assets/image/service-Yoga.svg"
+              image={serviceYoga}
             />
           </div>
           <div className=" relative">
@@ -47,7 +48,7 @@ function Home() {
               tag="Food & cafe"
               title="Where Every Bite Feels Like Home."
               description="Experience thoughtfully crafted flavors paired with rich, aromatic coffee. A place where every bite and sip creates a memorable moment."
-              image="/src/assets/image/service-box3.svg"
+              image={serviceCafe}
               reverse
             />
             <div className=" absolute -top-[640px] -left-[250px] right-0 mx-auto  z-10 pointer-events-none overflow-hidden ">

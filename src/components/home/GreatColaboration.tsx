@@ -10,7 +10,7 @@ import {
 
 import ContactForm from "../../components/home/ContactForm";
 
-
+import colaboration from "@/assets/image/colaboration-bg.jpg";
 
 /* ================= TYPES ================= */
 
@@ -38,7 +38,7 @@ export const GreatColaboration: React.FC = () => {
   return (
     <div className="bg-white p-0 ">
       <TextParallaxContent
-        imgUrl="/src/assets/image/colaboration-bg.jpg"
+        imgUrl={colaboration}
         subheading="starts with"
         heading="Great Collaboration"
         description="Join our newsletter for exclusive case studies, brand strategies, and the latest trends in design and tech."

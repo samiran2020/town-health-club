@@ -3,8 +3,9 @@
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { useRef } from "react";
 
-import floralBg from "../../assets/image/floral2.png";
+import floralBg from "@/assets/image/floral2.png";
 import { ArrowRight } from "lucide-react";
+import serviceDoctor from "@/assets/image/service-box3.svg";
 
 export const gymYogaSection = {
   tag: "polyclininc & Doctor",
@@ -12,7 +13,7 @@ export const gymYogaSection = {
   description:
     "Our dedicated doctors ensure personalized treatment with attention, empathy, and excellence.",
   buttonText: "Read More",
-  image: "/src/assets/image/servicebox-2.svg", // your image path
+  image: serviceDoctor, // your image path
   counter: 2,
 };
 

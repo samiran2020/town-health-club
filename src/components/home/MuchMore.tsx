@@ -108,10 +108,13 @@ const Card: React.FC<CardProps> = ({ card }) => {
 export default MuchMore;
 
 /* ================= DATA ================= */
+import wifi from "@/assets/image/wifi.svg";
+
+
 
 const cards: CardType[] = [
-  { uri:"/src/assets/image/icon/wifi.svg" ,alt:"WiFi Icon", title: "Luxury Amenities and More in Gim", id: 1, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
-  {  uri:"/src/assets/image/icon/wifi.svg", alt:"WiFi Icon", title: "Luxury Amenities and More in Gim", id: 2, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
-  {  uri:"/src/assets/image/icon/wifi.svg", alt:"WiFi Icon", title: "Luxury Amenities and More in Gim", id: 3, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
-  { uri:"/src/assets/image/icon/wifi.svg" ,alt:"WiFi Icon", title: "Luxury Amenities and More in Gim", id: 4, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
+  { uri: wifi, alt: "WiFi Icon", title: "Luxury Amenities and More in Gim", id: 1, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
+  { uri: wifi, alt: "WiFi Icon", title: "Luxury Amenities and More in Gim", id: 2, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
+  { uri: wifi, alt: "WiFi Icon", title: "Luxury Amenities and More in Gim", id: 3, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
+  { uri: wifi, alt: "WiFi Icon", title: "Luxury Amenities and More in Gim", id: 4, description: "Experience premium comfort with our luxury amenities in GIM. From state-of-the-art fitness facilities and modern wellness spaces to relaxing lounges and personalized services, everything is designed to elevate your lifestyle. " },
 ];
